@@ -1,0 +1,653 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+/*Heading Css Start*/
+header{
+    background: url(../img/Header-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .top-background{
+    background: #000000;
+    padding: 10px 0px;
+    width: 100%;
+    margin: 0 !important;
+}
+header .navbar{
+    padding: 0px;
+}
+header .navbar-nav .nav-item { 
+    margin-left: 40px;
+}
+header .navbar-nav .nav-item .nav-link{
+    color: #fff !important;
+    font-size: 18px;
+}
+header .nav-item .nav-link:hover{
+    color: #ff9b51 !important;
+}
+header .right-control{
+    margin-top: 125px;
+    margin-bottom: 125px;
+    padding-right: 3%;
+}
+header .form-part{
+    margin-top: 140px;
+    margin-bottom: 140px;
+    background: #fff;
+    text-align: center;
+}
+header .right-control h1{   
+    color: #fff; 
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 36px;
+}
+header .right-control .div-1{
+    border: 1px solid #fff;
+    width: 75px;
+    margin-bottom: 6%;
+}
+header .right-control p{ 
+    color: #dedede;
+    margin-bottom: 10%;
+    font-size: 16px;
+}
+header .right-control .btn{
+    background: transparent;
+    padding: 10px 35px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    font-size: 16px;
+    position: relative;
+}
+header .right-control .btn::after{
+    content:"Click Me!";
+    position:absolute;
+    width: 103%;
+    height: 109%;
+    background: #ff8b38;
+    border: 15px solid #ff8b38;
+    top: -2px;
+    left: -2px;
+    color: #fff;
+}
+header .right-control .btn:hover::after{
+    margin-top: -48px;
+    transition: 0.5s linear;
+    border: 2px solid #fff;
+    line-height: 2.5;
+}
+header .right-control .btn-lg:hover{
+    background: #ff9b51; 
+    color: #fff;
+    border: 2px solid #e2e5f4; 
+    transition: 0.5s linear;
+}
+header .form-part{
+}
+header .form-part h2{
+    color: #333333;
+    background: #f5f5f5;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+header .form-part h2 span{  
+    color: #ff8b38;
+}
+header .form-part form{
+    padding: 0 60px;
+}
+header .form-part form .input-type{  
+    width: 100%;   
+    border-top: none;   
+    border-left: none;  
+    border-right: none;   
+    border-bottom: 2px solid #d6d6d6;  
+    padding-left: 8px;  
+    margin-top: 40px;
+}
+header .form-part .submit-information{
+    margin-top: 60px;
+}
+header .form-part .submit-information .btn{  
+    position: relative;
+}
+header .form-part .submit-information .btn{
+    width: 100%; 
+    border: none; 
+    border-radius: 0;  
+    background: #ff9b51;  
+    color: #fff; 
+    padding: 20px 0; 
+    font-size: 15px;
+  
+}
+header .form-part .submit-information .btn:hover{
+    background: orange;
+    transition: 0.5s linear;
+}
+/*Heading Css End*/
+/*Social Media Section Css Start*/
+.social-media{ 
+    background: #fff;
+    padding: 0px;
+}
+.social-media .media-left{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 60px;
+}
+.social-media .media-left h3{    
+    font-size: 20px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+}
+.social-media .top-margin{
+    margin-top: 5%;
+}
+.social-media .media-left p{    
+    font-family: 'OpenSans Regular', sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+    margin: 0px;
+}
+.social-media .col{
+    margin: 0;
+}
+.social-media .nav-item .nav-link{  
+    padding: 0;
+}
+.social-media .nav-item .nav-link .fa{ 
+    font-size: 40px;
+    color: #cccccc;
+}
+/*Social Media Section Css end*/
+/*Feature Section1 Start*/
+.feature1{
+    background: #f5f5f5;
+
+}
+.feature1 .tab-btn-group{
+    padding-left: 0;
+    padding-right: 20px;
+    list-style: none;
+}
+.feature1 .tab-btn-group .nav-item{
+    background: #333333;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.feature1 .tab-btn-group .tab-btn{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 25px 0px;
+}
+.feature1 .tab-btn-group .active{
+    background: #ff8b38 !important;
+}
+.feature1  h3{   
+    color: #3c3c3c;
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-bottom: 12%;
+}
+.feature1 p{ 
+    font-size: 13px;  
+    color: #c3c3c5;
+}
+.feature1 .btn-tab{
+    border: 1px solid #ff8b38; 
+    color: #fff;
+    background: #ff8b38; 
+    margin-top: 5%;
+}
+.feature1 .img-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.feature1 .img-control .img-fluid{
+    width: 100%;
+}
+/*Feature Section1 End*/
+/*Features 2 Section Css Start*/
+.features2{
+    background: #ffffff;
+}
+.features2 .img-control{
+    padding-right: 5%;
+}
+.features2 .img-control img{
+    width: 100%;
+}
+.features2 .text-control{
+    padding: 0px 10%;
+}
+.features2 .text-control .upper{
+    margin-bottom: 10%;
+}
+.features2 .text-control .upper h3{  
+    color: #333333; 
+    font-size: 20px;
+    font-family: 'Myriad Pro Regular', sans-serif; 
+    margin-bottom: 4%; 
+    margin-left: 2%;
+}
+.features2 .text-control .upper .line{   
+    width: 70px; 
+    height: 2px;  
+    background: #ff8b38;   
+    display: inline-block;
+}
+.features2 .text-control .upper p{  
+    color: #a9aaac;  
+    font-family: 'Myriad Pro Regular', sans-serif;  
+    font-size: 14px;  
+    margin-top: 5%;
+}
+.features2 .text-control .upper-text{  
+    margin-bottom: 8%;
+}
+.features2 .text-control .upper-text h6{ 
+    font-family: 'OpenSans Semibold', sans-serif;
+    font-size: 14px;
+}
+.features2 .text-control .upper-text p{
+    color: #a9aaac;
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 14px;
+    margin-top: 5%;
+}
+/*Features 2 Section Css End*/
+/*About-1 Section Start*/
+.about-1{
+    background: #f5f5f5;
+}
+.about-1 .about-1-control{
+    padding-right: 16%;
+}
+.about-1 .about-1-control h3{  
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 20px; 
+    color: #212121;   
+    margin-left: 15px;   
+    margin-bottom: 5%;
+}
+.about-1 .about-1-control .line{
+    width: 12%;
+    height: 2px;
+    background: #ff8b38;
+}
+.about-1 .about-1-control .para1{  
+    color: #a6a7a9;  
+    margin-top: 5%; 
+    font-family: 'Myriad Pro Regular', sans-serif; 
+    font-size: 14px;
+}
+.about-1 .about-1-control .para2{
+    color: #a6a7a9; 
+    font-family: 'Myriad Pro Regular', sans-serif;
+    font-size: 14px;
+}
+.about-1 .img-control{
+    padding-left: 5%;
+}
+.about-1 .img-control img{
+    width: 100%;
+}
+/*About-1 Section Css End*/
+/*About-2 Section Css Start*/
+.about-2{
+    background: #fff;
+}
+.about-2 .about-2-control{
+    text-align: center;
+}
+.about-2 .about-2-control h2{
+    text-transform: uppercase;  
+    font-size: 36px;  
+    color: #212121; 
+    margin-bottom: 1%;
+}
+.about-2 .about-2-control .line{  
+    width: 7%; 
+    background: #ff8b38; 
+    height: 2px;  
+    margin: 0 auto;  
+    display: inline-block;
+}
+.about-2 .about-2-control p{   
+    color: #86878b;  
+    font-size: 14px;  
+    margin-top: 2%;  
+    margin-bottom: 8%;
+}
+.about-2 .design-control{
+    text-align: center;
+    padding: 10px 5px;
+}
+.about-2 .design-control{
+    box-shadow: 1px 1px 2px 0px rgba(88,88,88,0.5);
+}
+.about-2 .design-control img{
+    margin-top: 4%;
+}
+.about-2 .design-control .img-control{
+    margin-bottom: 30px;
+}
+.about-2 .design-control h4{
+    font-family: 'OpenSans Bold', sans-serif;
+    font-size: 20px;
+}
+.about-2 .design-control p{
+    font-size: 14px;
+    color: #9d9ea1;
+}
+/*About Section Css End*/
+/*Pricing CSS*/
+section{
+    padding: 80px 0;
+    float: left;
+    width: 100%;
+}
+.pricing{
+    background: #f5f5f5;
+}
+.pricing .price-upper h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+.pricing .price-upper .line{ 
+    width: 6%; 
+    height: 2px;  
+    background: #ff8b38;
+    margin: 0 auto;
+}
+.pricing .price-upper .price-para1{
+    margin-top: 2%;
+    color: #b7b7ba;
+}
+.pricing .price-control .price-top{
+    border-bottom: 1px solid #fff;
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.pricing .price-control .price-middle{
+    text-align: center;
+    padding: 20px 0;
+    background: #333333;
+    color: #fff;
+    border-bottom: 5px solid #ff8b38;
+}
+.pricing .price-control .price-middle h1{
+    font-size: 94px;
+    font-weight: 700;
+}
+.pricing .price-control .price-middle h1 span{
+    font-size: 94px;
+    font-weight: 700;
+}
+.pricing .price-control .price-middle h1 sub{
+    font-size: 35px;
+}
+.pricing .price-control .price-middle .price-para2{ 
+    color: #8d8d8d; 
+    margin-top: 6%;
+}
+.pricing .price-control .price-end{
+    background: #fff;
+}
+.pricing .price-control .price-end h6{
+    color: #bbbcbe;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f5f5f5;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.pricing .price-control .middle-position{
+    position: relative;
+    padding-bottom: 28px;
+}
+.pricing .price-control .middle-position .position-control{  
+    position: absolute;
+    bottom: 0; 
+    left: 0;  
+    background: #ff8b38; 
+    width: 100%;   
+    text-align: center;
+}
+.pricing .price-control .middle-position .position-control .popular{ 
+    color: #fff; 
+    padding: 8px 0px;
+}
+.div-control{
+    margin-top: 80px;
+}
+.div-middle-control{
+    margin-top: 52px;
+}
+/*Pricing Css End*/
+/*Plagin Css Start*/
+.plagin{
+    background: #fff;
+    padding-bottom: 100px;
+}
+.plagin .plagin-upper h2{
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+.plagin .plagin-upper .line{   
+    width: 6%; 
+    height: 2px;   
+    background: #ff8b38; 
+    margin: 0 auto;   
+    display: inline-block;
+}
+.plagin .plagin-upper p{
+    color: #c8c9ca;
+    font-size: 14px;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.plagin .left-upper{
+    background: #f5f5f5;
+    padding: 40px 10%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+.plagin .left-upper p{
+    font-style: italic;
+    font-size: 14px;
+}
+.plagin .img-manager img{  
+    width: 100%;
+}
+.plagin .managar-inform{
+    margin-top: 10%;
+}
+.plagin .managar-inform h5{ 
+    font-family: 'OpenSans Bold', sans-serif;
+    font-size: 20px; 
+    font-weight: 700; 
+    margin-bottom: 0;
+}
+.plagin .managar-inform p{
+    font-size: 14px;
+}
+.plagin .carousel-indicators{
+    margin-bottom: -5%;
+    background: #ff8b38;
+}
+.plagin .carousel-control-next-icon{
+    display: none;
+}
+.plagin .carousel-control-prev-icon{
+    display: none;
+}
+.plagin .dottt{
+    width: 20px;
+    height: 11px;
+    border-radius: 50%;
+}
+.padding-style{
+    padding: 0px 25px;
+}
+/*Plagin Css End*/
+/*Custom Section Css Start*/
+.custom{
+    background: url(../img/custom-section-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+.custom .custom-upper h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+.custom .custom-upper .line{
+    width: 6%; 
+    height: 2px;
+    background: #fff;  
+    margin: 0 auto; 
+    display: inline-block;
+}
+
+.custom .custom-upper p{ 
+    color: #c1c1bd; 
+    font-size: 16px; 
+    margin-top: 3%;  
+    margin-bottom: 8%;  
+    font-family: 'Raleway Light', sans-serif;
+}
+.custom .low-div{
+    display: inline-block;
+    position: relative;
+}
+.custom .middle-div{
+    display: inline-block;
+    position: relative;
+}
+.custom .btn{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    padding: 6px 20px;
+    font-family: 'OpenSans Semibold', sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+.custom .btn:hover{
+    background: #ff8b38;
+    transition: 0.5s linear;
+    border: 1px solid #ff8b38;
+}
+/*Custom Section Css End*/
+/*Contact Section Css Start*/
+.contact .contact-upper h2{
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+.contact .contact-upper .line{     
+    background: #ff8b38;      
+    width: 6%;     
+    height: 2px;     
+    margin: 0 auto;     
+    display: inline-block;
+}
+.contact .contact-upper p{ 
+    color: #c8c9ca;
+    font-size: 14px;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.contact .left-form{
+    padding-right: 30px;
+}
+.contact .left-form form .input-type{     
+    width: 100%;      
+    display: block;      
+    border-top: none;      
+    border-left: none;     
+    border-right: none;     
+    border-bottom: 1px solid #d6d6d6;     
+    margin-bottom: 7%;    
+    padding-left: 6px;
+}
+.contact .right-form{     
+    padding-left: 30px;
+}
+.contact .right-form form textarea{    
+    width: 100%;    
+    display: block;    
+    border-top: none;    
+    border-left: none;  
+    border-right: none;   
+    border-bottom: 1px solid #d6d6d6;    
+    padding-left: 5px;
+    }
+.contact .submit-information{
+    margin-top: 3%;
+}
+.contact .submit-information .effect .btn{   
+    background: #ff9b51;  
+    border-radius: 3px; 
+    border: 1px solid #ff9b51;
+    color: #fff; 
+    font-size: 15px; 
+    padding: 8px 30px;  
+    position: relative;
+}
+.contact .submit-information .effect .btn:hover{
+    background: orange;
+    border: 1px solid orange;
+    transition: 0.5s linear;
+}
+
+/*Contact Section Css End*/
+/*Footer Section Css Start*/
+footer{
+    float: left;
+    background: #000000;
+    width: 100%;
+    }
+footer .nav{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+footer .nav .nav-item .nav-link .fa{  
+    font-size: 25px;  
+    color: #fff;
+}
+footer p{  
+    margin: 0;  
+    color: #686868;  
+    font-size: 12px;  
+    text-align: center;  
+    margin-bottom: 8px;
+}
+/*Footer Section Css End*/

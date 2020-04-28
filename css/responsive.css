@@ -1,0 +1,377 @@
+
+@media (max-width: 575px) { 
+    .navbar-toggler-icon{
+        background: #fff;
+    }
+    header .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    header .logo-img{
+        width: 110px;
+        margin-bottom: 10px;
+    }
+    header .right-control {
+        padding-right: 0;
+    }
+    header .right-control h1{
+        font-size: 25px;
+    }
+    header .form-part form{
+        padding: 0;
+    }
+    header .form-part{
+        margin-top: 0;
+    }
+    header .form-part h2{
+        font-size: 18px;
+    }
+    .navbar-nav {
+        margin-top: 8%;
+    }
+    header .right-control .btn::after{
+        opacity: 0;
+    }
+    .social-media .col{
+        text-align: center;
+        padding: 0 10px;
+    }
+     .social-media .media-left h3{
+         font-size: 18px;
+     }
+    .social-media .media-left{
+        padding-right: 0px;
+        text-align: center;
+    }
+    .social-media .nav-item .nav-link .fa{
+        font-size: 20px;
+    }
+    .feature1 .tab-btn-group{
+        padding-right: 0px;
+    }
+    .feature-responsive{
+        max-width: 100%;
+    }
+    .feature-text-responsive{
+        max-width: 100%;
+    }
+    .feature1 .img-control{
+       display: none;
+    }
+    .feature1 h3{
+        font-size: 18px;
+    }
+    .features2 .text-control .upper h3{
+        font-size: 18px;
+    }
+    .features2 .img-control{
+        padding-right: 0px;
+    }
+    .features2 .text-control{
+        padding: 0 !important;
+    }
+    .features2 .text-control .upper{
+        text-align: center;
+    }
+    .features2 .text-control .upper-text{
+        text-align: center;
+    }
+    .features2 .right-img{
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .about-1 .about-1-control h3{
+        font-size: 18px;
+    }
+    .about1-text-responsive{
+        text-align: center;
+    }
+    .about-1 .about-1-control{
+        padding-right: 0 !important;
+    }
+    .about-1 .about-1-control .line {
+        margin: 0 auto;
+    }
+    .about-1 .img-control{
+        padding: 0px;
+    }
+    .about-2 .design-control{
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .about-2 .design-control h4{
+        font-size: 18px;
+    }
+    .pricing .price-upper h2{
+        font-size: 25px;
+    }
+    .pricing .price-control .price-middle h1 sub{
+        font-size: 25px;
+    }
+    .pricing .price-control .price-middle h1{
+        font-size: 50px;
+    }
+    .pricing .price-control .price-middle h1 span{
+        font-size: 50px;
+    }
+    .plagin .left-upper{
+        padding: 40px 5%;
+    }
+    .plagin .item-2{
+        display: none;
+     }
+    .plagin .plagin-upper h2{
+        font-size: 25px;
+    }
+    .plagin .img-manager img{
+        width: 25% !important;
+    }
+    .custom .custom-upper h2{
+        font-size: 25px;
+    }
+    .about-2 .about-2-control h2{
+        font-size: 25px !important;
+    }
+    .contact .right-form {
+        padding-left: 0;
+    }
+    .contact .left-form{
+        padding-right: 0;
+    }
+    .contact .contact-upper h2{
+        font-size: 25px;
+    }
+    .contact .submit-information .effect .btn {
+        width: 100%;
+    }
+    footer .nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    }
+@media (min-width: 576px) and (max-width: 767px) { 
+    .navbar-toggler-icon{
+        background: #fff;
+    }
+    .navbar-nav {
+        margin-top: 8%;
+    }
+    header .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    header .logo-img{
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    header .right-control {
+        padding-right: 0;
+    }
+    header .right-control h1{
+        font-size: 28px;
+    }
+    header .form-part form{
+        padding: 0;
+    }
+    header .form-part{
+        margin-top: 0;
+    }
+    header .right-control .btn::after{
+        opacity: 0;
+    }
+    .social-media .col{
+        text-align: center;
+    }
+    .social-media .media-left{
+        padding-right: 0px;
+        text-align: center;
+    }
+    .social-media .nav-item .nav-link .fa{
+        font-size: 30px;
+    }
+    .features2 .text-control{
+        padding: 0;
+        text-align: center;
+    }
+    .features2 .right-img{
+        margin-bottom: 20px;
+    }
+    .about-1 .about-1-control{
+        padding-right: 0;
+    }
+    .about-1 .about-1-control h3{
+        margin-left: 0;
+    }
+    .about-1 .img-control{
+        padding-left: 0;
+    }
+    .about-2 .about-2-control h2{
+        font-size: 28px;
+    }
+    .about-2 .design-control{
+        padding: 20px 0;
+    }
+    .pricing .price-upper h2{
+        font-size: 28px;
+    }
+    .pricing .price-control .price-middle h1{
+        font-size: 70px;
+    }
+    .pricing .price-control .price-middle h1 sub {
+        font-size: 35px;
+    }
+    .plagin .plagin-upper h2{
+        font-size: 28px;
+    }
+    .plagin .left-upper{
+        padding: 40px 5%;
+    }
+    .plagin .item-2{
+        display: none;
+     }
+     .plagin .img-manager img{
+         width: 35% !important;
+     }
+     .custom .custom-upper h2{
+         font-size: 28px;
+     }
+     .contact .right-form {
+        padding-left: 0;
+    }
+    .contact .left-form{
+        padding-right: 0;
+    }
+    .contact .contact-upper h2{
+        font-size: 28px;
+    }
+    .contact .submit-information .effect .btn {
+        width: 50%;
+    }
+    footer .nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    .navbar-toggler-icon{
+        background: #fff;
+    }
+    .navbar-nav {
+        margin-top: 8%;
+    }
+    header .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    header .right-control {
+        padding-right: 0;
+    }
+    header .right-control h1{
+        font-size: 30px;
+    }
+    header .form-part form{
+        padding: 0;
+    }
+    header .form-part{
+        margin-top: 0;
+    }
+    header .right-control .btn::after{
+        opacity: 0;
+    }
+    .social-media .col{
+        text-align: center;
+    }
+    .social-media .media-left{
+        padding-right: 0px;
+        text-align: center;
+    }
+    .social-media .nav-item .nav-link .fa{
+        font-size: 40px;
+    }
+    .features2 .img-control{
+        padding-right: 0;
+    }
+    .features2 .text-control{
+        padding: 0;
+        text-align: center;
+    }
+    .features2 .right-img{
+        margin-bottom: 20px;
+    } 
+    .about-1 .about-1-control{
+        padding-right: 0;
+    }
+    .about-1 .about-1-control h3{
+        margin-left: 0;
+    }
+    .about-1 .img-control{
+        padding-left: 0;
+    }
+    .about-2 .about-2-control h2{
+        font-size: 30px;
+    }
+    .about-2 .design-control{
+        padding: 20px 0;
+    }
+    .pricing .price-upper h2{
+        font-size: 30px;
+    }
+    .pricing .price-control .price-middle h1{
+        font-size: 80px;
+    }
+    .pricing .price-control .price-middle h1 sub {
+        font-size: 45px;
+    }
+    .plagin .plagin-upper h2{
+        font-size: 30px;
+    }
+    .plagin .img-second-control{
+        width:100% !important;
+    }
+    .plagin .item-1{
+        display: none;
+     }
+     .plagin .img-manager img{
+         width: 25%;
+     }
+     .custom .custom-upper h2{
+         font-size: 30px;
+     }
+     .contact .right-form {
+        padding-left: 0;
+    }
+    .contact .left-form{
+        padding-right: 0;
+    }
+    .contact .contact-upper h2{
+        font-size: 30px;
+    }
+    .contact .right-form form textarea{
+        height:125px;
+    }
+    .contact .submit-information .effect .btn {
+        width: 25%;
+    }
+    footer .nav{
+        width: 100%;
+        justify-content: center;
+    }
+ }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-2 .design-control {
+        padding: 20px 0;
+    }
+    .plagin .item-1-medium{
+        max-width: 50%;
+        flex: none;
+    }
+    .plagin .item-2-medium{
+        display: none;
+    }
+    .contact .right-form form textarea{
+        height:135px;
+    }
+    footer .nav{
+        width: 100%;
+        justify-content: center;
+    }
+ }
